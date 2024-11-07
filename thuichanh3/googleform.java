@@ -32,10 +32,10 @@ class Student implements Comparable<Student> {
     }
 }
 
-public class NewClass {
+public class googleform {
     public static void main(String[] args) {
         List<Student> students = new ArrayList<>();
-        
+
         // Đọc dữ liệu từ file DANHSACH.in bằng Scanner
         try (Scanner scanner = new Scanner(new File("DANHSACH.in"))) {
             while (scanner.hasNextLine()) {
